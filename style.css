@@ -51,7 +51,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 700px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -102,18 +102,22 @@ iframe {
   .content_viewport {
     border: 0px none;
     height: 900px;
-width: 100%;
+    width: 100%;
   }
 }
+
 @media (max-width: 1023px) {
   .content_viewport {
     border: 0px none;
     height: 900px;
-width: 100%;  }
+    width: 100%;
+  }
 }
+
 @media (min-width: 768px) {
   .content_viewport {
     border: 0px none;
     height: 900px;
-width: 100%;  }
+    width: 100%;
+  }
 }
