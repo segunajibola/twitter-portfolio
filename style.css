@@ -2,6 +2,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -14,13 +16,13 @@ nav {
   background-color: gray;
   position: fixed;
   top: 0;
-  left: 0;
-  width: 90%;
-  padding: 15px;
+  left: 0;  
+  width: 100%;
+  padding: 10px;
   z-index: 100;
-  margin: auto;
-  left: 50%;
-  transform: translateX(-50%);
+  /* margin: auto; */
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
 }
 
 ul {
@@ -33,7 +35,8 @@ ul {
 
 ul li a {
   color: #fff;
-  padding: 15px;
+  padding: 10px;
+  font-size: 14px;
 }
 
 h2 {
