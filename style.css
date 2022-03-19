@@ -42,8 +42,8 @@ section {
   margin: 15px auto 0;
 }
 
-.bg-red {
-  background-color: #DF292D;
+.bg-gray {
+  background-color: gray;
   color: #fff;
 }
 
