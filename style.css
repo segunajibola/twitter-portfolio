@@ -9,7 +9,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  padding-top: 50px;
+  padding-top: 0px;
 }
 
 nav {
@@ -40,6 +40,10 @@ ul li a {
   text-decoration: none;
 }
 
+#title {
+  padding: 20px 0px;
+}
+
 h2 {
   text-align: center;
 }
@@ -49,9 +53,7 @@ section {
   margin: 15px auto 0;
 }
 
-.bg-gray {
-  background-color: gray;
-  color: #fff;
+#popular {
   padding-top: 40px;
 }
 
